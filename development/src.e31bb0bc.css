@@ -1,0 +1,287 @@
+/*---------------------------
+    Header Styling
+-----------------------------*/
+.header {
+  padding: 48px;
+}
+.header_logo {
+  color: #ad7b7c;
+  text-align: center;
+  margin: 0 auto;
+  width: 92px;
+}
+.header_title {
+  font-family: "Playfair display", serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header_subtitle {
+  font-family: "Open sans", sans-serif;
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.header_heading {
+  margin-top: 90px;
+}
+.header_heading-subtitle {
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ad7b7c;
+}
+.header_heading-title {
+  margin-top: 20px;
+  font-family: "Playfair display", serif;
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #dd5748;
+}
+.header_image-container {
+  position: absolute;
+  opacity: 20%;
+  top: 300px;
+  right: 20px;
+  z-index: -1;
+  text-align: end;
+}
+.header_image {
+  width: 60%;
+}
+
+/*---------------------------
+    cta Section Settings
+-----------------------------*/
+.cta {
+  padding: 48px;
+  overflow-x: hidden;
+}
+.cta_title {
+  font-family: "Playfair display", serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #dd5748;
+  width: 86px;
+}
+.cta_body-text {
+  margin-top: 36px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ad7b7c;
+}
+.cta_button {
+  border: 2px solid #ad7b7c;
+  font-family: "Playfair display", serif;
+  color: #ad7b7c;
+  font-size: 12px;
+  background-color: transparent;
+  padding: 10px 50px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.cta_button-border {
+  border: 2px solid #ad7b7c;
+  height: 36px;
+  width: 180px;
+  margin-top: -34px;
+  margin-left: 6px;
+}
+.cta_headline {
+  margin-top: 20px;
+  font-family: "Playfair display", serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #dd5748;
+  white-space: nowrap;
+  width: 1200px;
+  margin-left: -3px;
+  animation: marquee 20s linear;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fef5f7;
+}
+
+/*---------------------------
+    Header Styling
+-----------------------------*/
+.header {
+  padding: 48px;
+}
+.header_logo {
+  color: #ad7b7c;
+  text-align: center;
+  margin: 0 auto;
+  width: 92px;
+}
+.header_title {
+  font-family: "Playfair display", serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header_subtitle {
+  font-family: "Open sans", sans-serif;
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.header_heading {
+  margin-top: 90px;
+}
+.header_heading-subtitle {
+  font-family: "Open sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ad7b7c;
+}
+.header_heading-title {
+  margin-top: 20px;
+  font-family: "Playfair display", serif;
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #dd5748;
+}
+.header_image-container {
+  position: absolute;
+  opacity: 20%;
+  top: 300px;
+  right: 20px;
+  z-index: -1;
+  text-align: end;
+}
+.header_image {
+  width: 60%;
+}
+
+/*---------------------------
+    cta Section Settings
+-----------------------------*/
+.cta {
+  padding: 48px;
+  overflow-x: hidden;
+}
+.cta_title {
+  font-family: "Playfair display", serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #dd5748;
+  width: 86px;
+}
+.cta_body-text {
+  margin-top: 36px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ad7b7c;
+}
+.cta_button {
+  border: 2px solid #ad7b7c;
+  font-family: "Playfair display", serif;
+  color: #ad7b7c;
+  font-size: 12px;
+  background-color: transparent;
+  padding: 10px 50px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.cta_button-border {
+  border: 2px solid #ad7b7c;
+  height: 36px;
+  width: 180px;
+  margin-top: -34px;
+  margin-left: 6px;
+}
+.cta_headline {
+  margin-top: 20px;
+  font-family: "Playfair display", serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #dd5748;
+  white-space: nowrap;
+  width: 1200px;
+  margin-left: -3px;
+  animation: marquee 20s linear;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/*---------------------------
+    Content Section Settings
+-----------------------------*/
+.content_video-conatiner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.content_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.content_mobile-container {
+  padding: 48px 48px 0px 48px;
+}
+.content_title {
+  margin-top: 20px;
+  font-family: "Playfair display", serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #dd5748;
+}
+.content_mobile-images {
+  margin-top: 38px;
+}
+.content_decoration {
+  width: 26.85px;
+  height: 26.85px;
+  transform: rotate(45deg);
+  background-color: #dd5748;
+  margin: 0 auto;
+}
+.content_image-1 {
+  margin-bottom: 33px;
+  width: 100%;
+}
+.content_image-2 {
+  margin-top: 33px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

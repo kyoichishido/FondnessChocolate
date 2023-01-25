@@ -1,0 +1,72 @@
+/*---------------------------
+    cta Section Settings
+-----------------------------*/
+
+$display-font: 'Playfair display', serif;
+$body-text: 'Open sans', sans-serif;  
+$background-color: #fef5f7;
+$beige: #ad7b7c;
+$red: #dd5748;
+$dark-red: #ad6a68;
+
+.cta {
+    padding: 48px;
+    overflow-x: hidden;
+
+    &_title {
+        font-family: $display-font;
+        font-weight: 700;
+        font-size: 14px;
+        color: $red;
+        width: 86px;
+    }
+
+    
+    &_body-text {
+        margin-top:36px;
+        font-family: $body-text;
+        font-weight: 600;
+        font-size: 12px;
+        color: $beige;
+    }
+
+    &_button {
+        border: 2px solid $beige;
+        font-family: $display-font;
+        color: $beige;
+        font-size: 12px;
+        background-color: transparent;
+        padding: 10px 50px;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    &_button-border {
+        border: 2px solid $beige;
+        height: 36px;
+        width: 180px;
+        margin-top: -34px;
+        margin-left: 6px;
+    }
+
+    &_headline {
+        margin-top: 20px;
+        font-family: $display-font;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $red;
+        white-space: nowrap;
+        width: 1200px;
+        margin-left: -3px;
+        animation: marquee 20s linear;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-100%, 0);
+        }
+    }
+}

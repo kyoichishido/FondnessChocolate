@@ -1,0 +1,23 @@
+@import './header';
+@import './cta';
+
+
+
+$display-font: 'Playfair display', serif;
+$body-text: 'Open sans', sans-serif;  
+$background-color: #fef5f7;
+$beige: #ad7b7c;
+$red: #dd5748;
+$dark-red: #ad6a68;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $background-color;
+}

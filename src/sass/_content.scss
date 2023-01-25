@@ -1,0 +1,64 @@
+/*---------------------------
+    Content Section Settings
+-----------------------------*/
+
+$display-font: 'Playfair display', serif;
+$body-text: 'Open sans', sans-serif;  
+$background-color: #fef5f7;
+$beige: #ad7b7c;
+$red: #dd5748;
+$dark-red: #ad6a68;
+
+.content {
+    &_video-conatiner {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+
+    &_video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &_mobile-container {
+        padding: 48px 48px 0px 48px;
+    }
+
+    &_title {
+        margin-top: 20px;
+        font-family: $display-font;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $red;
+    }
+
+    &_mobile-images {
+        margin-top: 38px;
+    }
+
+    &_decoration {
+        width: 26.85px;
+        height: 26.85px;
+        transform: rotate(45deg);
+        background-color: $red;
+        margin: 0 auto;
+    }
+
+    &_image-1 {
+        margin-bottom: 33px;
+        width: 100%;
+    }
+    &_image-2 {
+        margin-top: 33px;
+        width: 100%;
+    }
+
+}
